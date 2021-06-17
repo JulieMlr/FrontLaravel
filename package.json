@@ -3,5 +3,10 @@
     "workspaces": [
         "app-laravel",
         "app-vue"
-    ]
+    ],
+    "scripts": {
+        "dev": "yarn dev:vue & yarn dev:laravel",
+        "dev:vue": "yarn workspace app-vue serve",
+        "dev:laravel": "yarn workspace app-laravel start"
+    }
 }
