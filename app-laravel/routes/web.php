@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/api', function() {
+    return response()->json(['message'=>'Hello']);
+});
 
 Route::get('/home', function() {
     return view('welcome');

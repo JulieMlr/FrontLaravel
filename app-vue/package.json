@@ -9,11 +9,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "app-laravel": "1.0.0",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "lerna": "^4.0.0",
-    "vue": "^2.6.11",
     "cross-env": "5.0.5",
-    "app-laravel": "1.0.0"
+    "lerna": "^4.0.0",
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
