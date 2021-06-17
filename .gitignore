@@ -1,5 +1,7 @@
 node_modules
-/ dist
+/dist
+/app-laravel/public/dist
+/app-laravel/resources/views/index.html
 
 # Build and Release Folders
 bin-debug/

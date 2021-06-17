@@ -1,12 +1,16 @@
 {
+    "name": "projet",
     "private": true,
     "workspaces": [
         "app-laravel",
         "app-vue"
     ],
     "scripts": {
-        "dev": "yarn dev:vue & yarn dev:laravel",
+        "all": "run-p -l dev:*",
         "dev:vue": "yarn workspace app-vue serve",
         "dev:laravel": "yarn workspace app-laravel start"
+    },
+    "dependencies": {
+        "npm-run-all": "^4.1.5"
     }
 }
