@@ -1,0 +1,7 @@
+{
+    "private": true,
+    "workspaces": [
+        "app-laravel",
+        "app-vue"
+    ]
+}
